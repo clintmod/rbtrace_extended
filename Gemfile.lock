@@ -1,0 +1,28 @@
+PATH
+  remote: .
+  specs:
+    rbtrace_extended (0.1.0)
+      rbtrace
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.18)
+    msgpack (1.2.4)
+    rake (10.5.0)
+    rbtrace (0.4.10)
+      ffi (>= 1.0.6)
+      msgpack (>= 0.4.3)
+      trollop (>= 1.16.2)
+    trollop (2.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  rake (~> 10.0)
+  rbtrace_extended!
+
+BUNDLED WITH
+   1.16.1
